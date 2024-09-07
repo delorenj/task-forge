@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "task-forge"
+packages = [
+    { include = "task_forge", from = "src" },
+]
+
+version = "0.1.0"
+description = "Seamlessly transform AI-generated plans into actionable tasks across various project management platforms, bridging the gap between artificial intelligence and human productivity."
+authors = ["Jarad DeLorenzo <jaradd@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
